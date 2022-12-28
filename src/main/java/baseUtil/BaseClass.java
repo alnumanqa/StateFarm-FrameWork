@@ -15,6 +15,7 @@ public class BaseClass {
 
 	@BeforeMethod
 	public void setUp() {
+		// There are another way to set shoe location
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\numan\\eclipse-workspace\\com.statefarm\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
